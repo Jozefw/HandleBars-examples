@@ -12,6 +12,13 @@
 <body>
 	<script id="test-template" type = "text/x-handlebars-template">
 		<p>I live at {{city}}.  My address is {{number}} {{street}}.</p>
+
+		{{description.escaped}}
+		{{example}}
+		<br></br>
+
+		{{description.unescaped}}
+		{{{example}}}
 	</script>
 
 <!-- the above content is sent to the inside of this div -->

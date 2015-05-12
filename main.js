@@ -8,6 +8,11 @@ $(function(){
 		"city": "london",
 		"street": "Baker",
 		"number": "222",
+		"description": {
+			"escaped": "double bracks escapes html",
+			"unescaped": "triple bracks leaves html as is"
+		},
+		"example": "<button>hello</button>"
 	};
 
 	// pass our data to the template

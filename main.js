@@ -12,7 +12,14 @@ $(function(){
 			"escaped": "double bracks escapes html",
 			"unescaped": "triple bracks leaves html as is"
 		},
-		"example": "<button>hello</button>"
+		"example": "<button>hello</button>",
+		"people": [
+		{ firstName: 'Homer', lastName: 'Simpson' },
+		{ firstName: 'Peter', lastName: 'Griffin' },
+		{ firstName: 'Eric', lastName: 'Cartman' },
+		{ firstName: 'Kenny', lastName: 'McCormick' },
+		{ firstName: 'Bart', lastName: 'Simpson' }
+		]
 	};
 
 	// pass our data to the template
